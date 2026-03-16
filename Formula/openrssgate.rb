@@ -3,8 +3,8 @@ class Openrssgate < Formula
 
   desc "Read-only CLI for querying OpenRSSGate sources and feeds"
   homepage "https://github.com/windbug99/openrssgate"
-  url "https://files.pythonhosted.org/packages/source/o/openrssgate/openrssgate-0.1.1.tar.gz"
-  sha256 "b39d1c1222973c3ab5d9e25336b7e4380d1e4a4e71005695d573c4c06321bb6f"
+  url "https://files.pythonhosted.org/packages/source/o/openrssgate/openrssgate-0.1.2.tar.gz"
+  sha256 "7653fc33b24556a97f1ec097f5bde2cb03a8ea3b3eb147860717f97e19827916"
   license "MIT"
 
   depends_on "python@3.13"
@@ -84,6 +84,6 @@ class Openrssgate < Formula
   end
 
   test do
-    assert_match "Read-only CLI", shell_output("#{bin}/openrssgate --help")
+    assert_match "Read-only CLI", shell_output("#{bin}/org --help")
   end
 end
