@@ -3,8 +3,8 @@ class Openrssgate < Formula
 
   desc "Read-only CLI for querying OpenRSSGate sources and feeds"
   homepage "https://github.com/windbug99/openrssgate"
-  url "https://files.pythonhosted.org/packages/source/o/openrssgate/openrssgate-0.1.3.tar.gz"
-  sha256 "15a59f625a5ebf7a84a999523336b58e9d550497aabfc3d7f2b89d7a52cc01ce"
+  url "https://files.pythonhosted.org/packages/source/o/openrssgate/openrssgate-0.1.4.tar.gz"
+  sha256 "de83a76b031db0779992352a5663356fd6d92546f490751b72cc5fc32d927b38"
   license "MIT"
 
   depends_on "python@3.13"
